@@ -1,0 +1,45 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "マイテミ",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "GoTo",
+                    "slots": [
+                        {
+                            "name": "place",
+                            "type": "AMAZON.Room"
+                        }
+                    ],
+                    "samples": [
+                        "{place} 行って",
+                        "{place} 行こう",
+                        "{place} へ行って",
+                        "{place} に向かって",
+                        "{place} に行こう",
+                        "{place} に入って",
+                        "{place} へ移動しなさい",
+                        "{place} に行って"
+                    ]
+                }
+            ],
+            "types": []
+        }
+    }
+}
