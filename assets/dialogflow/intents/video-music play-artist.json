@@ -1,0 +1,323 @@
+{
+  "id": "270c0bc5-fe84-4155-b3f9-057b5d1b05f9",
+  "name": "video-music:play-artist",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "video.play",
+      "affectedContexts": [
+        {
+          "name": "video",
+          "lifespan": 1
+        },
+        {
+          "name": "play",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "app_name",
+          "dataType": "",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "YouTube Videos",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "video_type",
+          "dataType": "",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "video",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "term",
+          "dataType": "@sys.music-artist",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "誰の曲を聴きたいですか？",
+            "聴きたいアーティストの名前を教えてください。"
+          ],
+          "value": "$term",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "美空ひばり",
+          "userDefined": false,
+          "alias": "term",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "を流して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "49797a81-6675-448e-b9ae-2531d20162e9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "角川さん",
+          "userDefined": true,
+          "alias": "term",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "の曲を再生して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dfbe4208-7bc6-4901-828e-10ad9199037f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "松任谷由実",
+          "userDefined": true,
+          "alias": "term",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "さんの曲を聞かせて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4ebbc023-0292-4daf-ad5e-d7ba04f9483c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ポールアンカ",
+          "userDefined": true,
+          "alias": "term",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "のビデオを再生して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "93d4ec72-c0ef-4818-97a4-b05ba3b9d7b1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビートルズ",
+          "userDefined": true,
+          "alias": "term",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "のビデオを再生して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d909638d-9407-4021-bacd-100511cfa9f8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "レディーガガ",
+          "userDefined": true,
+          "alias": "term",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "のビデオを再生して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7a26b6e1-03fc-4b96-9e60-1281186acf7c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ジェジュン",
+          "userDefined": true,
+          "alias": "term",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "の音楽を聞かせて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3aef3c4c-df41-4d28-9dc4-a47862867fc9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "中村倫也",
+          "userDefined": true,
+          "alias": "term",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "が歌う歌を流して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0bb4a060-ff3b-427b-ad62-d8236b1aeae3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "WANIMA",
+          "userDefined": true,
+          "alias": "term",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "の音楽流して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d9c4b320-0e0d-4e05-9d65-79502912f24e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "チェインスモーカーズ",
+          "userDefined": true,
+          "alias": "term",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "を流して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "69781768-002a-4ac9-a666-47d05dbc3072",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "マイケルジャクソン",
+          "userDefined": true,
+          "alias": "term",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "のビデオを流して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "694372ee-7f0d-482a-9ed7-750a5484f9f1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "YouTube で",
+          "userDefined": false
+        },
+        {
+          "text": "アイズワン",
+          "userDefined": true,
+          "alias": "term",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": " 流して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dda124d0-9cdb-470d-aed3-c9ca6ad7dc5a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "美空ひばり",
+          "userDefined": true,
+          "alias": "term",
+          "meta": "@sys.music-artist"
+        },
+        {
+          "text": "のビデオを流して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3b97e64c-eee8-4702-8db8-ca7c84a51561",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

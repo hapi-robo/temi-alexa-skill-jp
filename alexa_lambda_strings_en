@@ -1,0 +1,71 @@
+export namespace MessageStrings_EN {
+    export const WELCOME: string = `Welcome to the temi Skill. 
+    control your temi robot using Alexa. 
+    Save locations and send temi to go there, Take photos and videos and make video calls. 
+    For example: 
+    Tell my temi to go to Home Base. 
+    Ask my temi to call Mom. 
+    So.... What would you like to do?`
+    export const OK: string = `Ok`
+    export const OK_MOVING: string = `Ok, asking temi to move`
+    export const OK_CALLING: string = `Ok`
+    export const WHAT_DO_YOU_WANT: string = `What do you want to ask?`
+    export const NOTIFY_MISSING_PERMISSIONS: string = `To use the Temi alexa skill, please grant permissions in the Alexa app.`
+    export const NOTIFY_ACL_REQUIRED: string = `You must authenticate with your Amazon Account to use Temi skill. Instructions are waiting in your Alexa App`
+    export const NO_ADDRESS: string = `It looks like you didn't provide a phone number yet. Please set your phone number from the Alexa app.`
+    export const NO_PHONE: string = `Please make sure your mobile phone number in Alexa account matches the number temi was activated with.`
+    export const NO_PROFILE_ACL: string = `Please use the Alexa app to link your Amazon account with your temi account`
+    export const NO_PHONE2: string = `Please make sure that your mobile phone number in the Alexa account is set correctly with country code.`
+    export const NO_EMAIL: string = `Here is your full address:`
+    export const API_TEMI_LOOKUP_ERROR: string = `I was not able to find your Temi, make sure you are the Admin`
+    export const ERROR: string = `Hmmm... Something went wrong`
+    export const UNHANDLED: string = `I can not help with that yet`
+    export const FALLBACK: string = `Temi cannot help with that request`
+    export const HELP: string = `
+        With the Temi skill you can take photos and videos,
+        call your contacts and go to different locations
+        while using Alexa.
+        What would you like to do?  
+    `
+    export const REPEAT_LOCATION_TO_SAVE: string = 'Please say the name of the location to save'
+    export const NO_MATCHING_LOCATIONS_FOUND0: string = `You don't have any saved locations. \n
+    You can ask temi to save the location and give it a name. 
+    `
+    export const NO_MATCHING_CONTACTS_FOUND0: string = `You don't have any saved contacts. \n
+    `
+    export const NO_MATCHING_LOCATIONS_FOUND1: string = `I can't find any matching location for %s. \n
+    You have %d saved locations.
+    Please say where you want Temi to go to 
+    `
+    export const NO_MATCHING_LOCATIONS_FOUND2: string = `You have %d saved locations.
+    Please say where you want Temi to go to 
+    `
+    export const NO_MATCHING_CONTACTS_FOUND1: string = `I can't find any matching contacts for %s. \n
+    You have %d saved contacts.
+    Which contact do you want to call? 
+    `
+    export const MULTIPLE_MATCHING_CONTACTS_FOUND1: string = `You have %d saved contacts matching %s \n
+    Which one do you want to call? 
+    `
+    export const LOCATION_FOUND: string = 'Ok, asking temi to go'
+    export const LOCATION_FOUND2: string = 'Ok, asking temi to go to %s'
+    export const PROVIDE_LOCATION: string = 'Ok, asking temi to go to %s'
+    export const OK_SAVING_LOCATION: string = 'Ok, asking temi to save location'
+    export const DYNAMO_GET_ERROR: string = 'Something went wrong. Please make sure your Temi is updated'
+    //export const YOU_HAVE_TOTAL_TEMIS: string = `You have total of %d temmys. Multiple Temmys not supported, make sure you have only one as Admin`
+    export const YOU_HAVE_TOTAL_TEMIS: string = `Currently temi supports commands to one robot - make sure you are an owner of only one robot`
+    export const TAKING_A_VIDEO: string = `Ok`
+    export const TAKING_A_PHOTO: string = `Ok`
+    export const TAKING_A_SEQUENCE: string = `Ok`
+    export const RUNNING_COMMAND: string = `Ok, running %s`
+    export const CAN_MOVE: string = `I can go forward, back, left or right, What would you like?`
+    export const PLAYING: string = `Playing %s `
+    export const NO_TEMIS_FOUND: string = `You dont have an activated Temi. Please activate Temi  to use the temi skill`
+    export const TEMI_NOT_AVAILABLE: string = `Hmmm... Temi is currently not available, please try again in a moment or check the app for status`
+    export const YOUR_SAVED_LOCATIONS_TTILE: string = `Your Saved Locations`
+    export const YOUR_SAVED_CONTACTS_TTILE: string = `Your Contacts`
+    export const YOUR_FILTERED_CONTACTS_TTILE: string = `Your Contacts matching %s`
+    export const REPEAT_LOCATION_TO_GO: string = 'Say the location you want Temi to go to'
+    export const REPEAT_CONTACT_TO_CALL: string = 'Say the contact name you wish Temi to call'
+    export const CONTACT_TO_CALL_CONFIRM: string = 'Call %s, right?'
+}

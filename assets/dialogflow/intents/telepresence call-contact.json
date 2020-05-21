@@ -1,0 +1,1497 @@
+{
+  "id": "6708972c-294a-4ec8-850e-a457ade98980",
+  "name": "telepresence:call-contact",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": -1,
+  "responses": [
+    {
+      "action": "tele.contact.call",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "contact",
+          "dataType": "@sys.person",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "誰に連絡しますか"
+          ],
+          "value": "$contact",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "秋山",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "38ebb983-b78a-4650-be2a-1f22a233a722",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "川辺",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "を呼び出して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1eeec304-2889-48aa-a1e7-680e2476c36c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "社長",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f18bcbae-4599-444e-b280-f39f22228829",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "吉川",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e07db784-737d-4fba-9d93-ad4127907356",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "おばあちゃん",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "869de196-14f6-4695-ac3f-5656761eb9a4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お姉ちゃん",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "3e222af9-b17f-4538-8d57-c2b8a2bd2d53",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お姉ちゃん",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "電話にして",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e3d63735-c3d9-4bc9-a3d6-aabdf9fc4745",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "おじいちゃん",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "defcd413-ffa3-4053-bfc4-1728e6c2879c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "吉田",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a7c800f5-ff80-4865-9da3-f58d5743b164",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "田中",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "036c1da6-b556-4c34-bb25-a1095504dd08",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "井上",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "192bc234-bcd0-41d7-9818-304a6d64e48a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "e0b0bc0d-7a16-44ce-87d2-56ce44ea1b1d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お母さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "e2abe456-fd4b-4ed8-95f0-15dd352069c6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お兄ちゃん",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a9085706-4cb5-4016-ba81-7cecb9b50818",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "富田",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "469e5435-0784-49b6-91b9-80d93605defa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "富田",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話をして",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f097d699-4d5c-41e6-8182-9633743e4f2c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "恵美",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c65f49d3-14dd-43eb-936a-fb6ecb6dd124",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "テレプレゼンス で",
+          "userDefined": false
+        },
+        {
+          "text": "田中",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3fda7495-9e79-4370-9b32-8a485e88981d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオ会議で ",
+          "userDefined": false
+        },
+        {
+          "text": "田中",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんにつないで",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b3f22c5e-d6c3-4f49-860c-7427f9d061e5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "吉田",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんにつないで",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c9234103-b796-4532-a13d-7150b5a2dbb9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "福本",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "de7d7e0b-2f33-4079-9148-6106aa294c7a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "高橋",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "493369a4-4a71-4fc5-be01-f1ede85af87b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に連絡してください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "528bdaa6-1866-40c7-83a1-e97686050335",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "前田",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話かけて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "93a2b408-14f0-4c28-a0b9-2fa8759d7941",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "吉田",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f56741bf-4c40-42aa-9dc5-c36fdec02e01",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "大場",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話かけて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d8c8eb41-d58e-41f1-a2c8-c30c71be1651",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ジョン",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話かけて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ec448d69-8902-4954-b5c8-9cdef9bcfc42",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "レイモンド",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に通話して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3aa86d48-0c4e-4dcf-96e8-41597d5eb9c2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "レイモンド",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話してください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "50631778-7b3b-40df-ab43-5f343c5f90c9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "やひろ",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話してください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3450cf0b-13c2-45e7-bf23-d635340a21e9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "安城",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1572edbd-ea4d-49ef-93a6-80aad42ef5d6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "山川",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d6128629-68e4-4997-9de9-80f25528a20f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "森松佳奈",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c4858184-c5d4-41f6-851e-3fa70c33f26d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "舞香",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話してください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "da005b0f-6f35-4363-aa0c-860e7364542b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "まさ",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "72778f8d-5ebd-41bf-a94a-3f6b174bbc58",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "まさ",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話をかけて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ea6ad63d-1ebc-4093-b989-9904c0612253",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ママ",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "と話したい",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "808e70df-b8ad-41dd-a0d2-91197c8fd0a8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "パパ",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "と話したい",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f0b0533f-f018-43d5-976d-94d517d646d4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "c156bdd3-27ba-4c89-b2e3-d8a6f161258f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ちかこ",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "96ef9373-0354-4702-85b2-cae93da0aa75",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "社長",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b6b34530-b3db-4d82-92b8-fae5b513629f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "吉川",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "659880fb-45e8-4f37-b805-9c5bc6e11f51",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "高橋",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4f73c1ce-b5ef-4b4f-813b-814b20f7b00c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "坊",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "96132d81-6d38-47f5-a9b4-7630c493ef97",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "レイモンド",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3f5cc1c7-36c1-4f7b-93fc-7f8ec8e6e326",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "本",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1772b823-dcb9-4cf9-a0d4-75f95bf78086",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "福本",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f7faf63f-40a5-4e85-b74e-d80061ea5caa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ママ",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話をかけたい",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d7e985a7-d46e-4eb9-ba18-61425f5f92a1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お姉ちゃん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話をかけたい",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "38b69a96-f454-4511-a7e1-5bee3d6ec4e3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "姫ちゃん",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話をしたい",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "08225600-bc27-4921-9939-763949c7cadb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お姉さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話をかけて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5fcbf684-82e5-4f6f-8e99-1128cbfee4b9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "山口",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話をして",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fddbfccb-044d-4a83-856a-aa5e5ef3feb9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "トム",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話をして",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "41d876c3-0ac3-4674-b992-a771b3a59798",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お母さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話をかけて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8aadd259-6d40-4925-87f1-abc197ad499b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "河内",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話をかけて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e1696340-27bf-42e9-a61f-5589767d49b2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ゆき",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話をかけて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fbe280be-de6a-432d-baa3-82b1ab503bfc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "伊藤",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "さんに電話をかけて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "529cd3b3-526a-42b7-ad3c-045b43de5ee3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "姉",
+          "userDefined": false,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c1d1d742-71a7-42ba-9da9-e29a5462d74d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "姉さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "にコールしてください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dc3fe211-85d5-4d96-afd8-111af93525ce",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お姉ちゃん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "呼んで",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "16356473-7b7c-435d-8d68-2aace0846b62",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お姉ちゃん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "よくね",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e89c0ba9-1b33-451b-9573-c51a25fa9edc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お兄ちゃん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に連絡入れて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1e4ca1b2-a5fe-4962-8e1e-1297a5ea8bd6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お兄ちゃん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "呼んで",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "117aaadd-c522-4263-80a8-7b26a64bd758",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に連絡して",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "10f41762-af9a-4016-95b7-c6c23d30c72d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話かけよう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fc968a4c-78eb-43d0-871a-03e4df6780fa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話かけようかな",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e6d1bbbb-8ee9-496b-8981-24610f6b86fa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話する",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "783ed6e1-796a-4626-9307-7ca64c88aa3e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話いれて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "38a7fc5a-659f-45cc-a56f-9da9feead5b5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "と話したい",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "8e9e8f6c-5596-4de8-b51f-64ceaa1c225f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "と電話したい",
+          "userDefined": false
+        }
+      ],
+      "count": 5,
+      "id": "b39d9767-adb0-485a-97ee-21b137d1a078",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "にかけて",
+          "userDefined": false
+        }
+      ],
+      "count": 5,
+      "id": "bb612f7c-3e0c-4222-8c8a-64bb0bdfa1ce",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話しよっか",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "68abca37-e758-4998-93ae-d35f9020399a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "を呼び出しましょう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5f9fe7d4-a66f-4c06-beda-d77c73f150d1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話するわ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b1ca1ee9-eb73-42d8-a6cf-be95f91a7b06",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話かけよっか",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e07d9673-d39f-4ccd-9bb4-bf902f3944f1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話かけて",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "f276892d-f646-429f-b153-886925d4933d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話しよう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "972def40-a623-4d43-987a-3d7fe0323960",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に連絡しよう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "137e8c06-20a3-4e88-bb52-245a7efcaae4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に電話かけてみよう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8ddaf119-9a0f-45f3-9cfb-f524b1f35d09",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お父さん",
+          "userDefined": true,
+          "alias": "contact",
+          "meta": "@sys.person"
+        },
+        {
+          "text": "に連絡してみよう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3495c51a-45a0-41af-a7ef-d252e148870b",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

@@ -1,0 +1,770 @@
+{
+  "id": "798339e3-affa-431b-96ab-8e5a41cfc22a",
+  "name": "camera:picture.start",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "camera.take.picture",
+      "affectedContexts": [
+        {
+          "name": "camera",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真を撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "a9a6795c-b7b5-4642-9dbe-bd59a639c503",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真を映して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3601eead-6136-4658-8065-faaf800fe110",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真が欲しい",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "71bd216c-30df-42e3-876c-88223dd1bd89",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真いっぱい撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "beaa2db9-32cc-4c21-99df-9fd4cdad3a4c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真を撮ろう",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "4e070050-2a7f-4a28-92d4-c214a916b1c6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "室内写真を撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "efbad54c-d60b-4c4b-915c-a288c14bb654",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "一枚写真を撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "0ac7d868-d711-4775-809e-626b5fb1a85a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "綺麗に写真を撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ad615916-876e-466a-907e-bb93a3b6096b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "カメラを撮ろう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ab34c802-130b-46ee-b9a6-166b80be6fce",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "1枚 撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1608aca7-368e-4c0c-af00-4eef56dec795",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 3,
+      "id": "7e1a6ca1-8aac-4888-873e-0ab1c3a5dede",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "カメラで撮影",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b7af6d89-bc77-4a2a-af90-5579944a308e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "いい写真撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "29e8806b-5184-44ac-9ac4-9ec8353efddc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "続けて撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "924c0638-7833-450a-9612-47ad9eb12f7c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "カメラで撮る",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b67def7f-55ba-4ef9-8216-01a1805a1312",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真を撮る",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "396271e1-505f-4e30-9973-80fcac6e5e08",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "映像をとる",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "da5056fb-27ad-4f32-995a-5ec57bff280e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真を撮ります",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "79d126a6-7a6a-4288-8805-1f89a8cfe1bc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真をお願い",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "83690cd8-4301-445e-89e3-c31ba8880f16",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真機で撮影して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "eee1f9c0-fdb3-418e-90a0-a1f310d9edc9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "撮影して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0056b5c2-4faf-438d-9eb8-cb21a51bf175",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "これとって",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3b6965d8-4bf0-464e-8937-01e96bb0e713",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真撮れる",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "808f5c14-4edf-4049-9293-f980bf2c4243",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真撮るよ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b66b3f87-b75f-4c65-bad8-03eaf5a7b11e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真とれ",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "1b49155f-0814-4e67-9b1b-2f1cf2b4394a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真を撮れ",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "90b18305-e603-4fae-b001-cd1754da99a1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真とるよ",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "1a4b2954-9a98-410d-840d-30f07e042bea",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真を撮って下さい",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "b67483f5-0454-4df8-ab7f-27f393601ba3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真撮影してください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "c336809f-13d0-4039-9aac-bbd5d6b513bf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "きれいに撮ってください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "d378910f-9e7e-4505-8acc-b9f42e3321ae",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "今を写真に撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "de34cf62-a917-4bde-bd0c-07268a0334db",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "シャッター押して",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "cf4344ca-24bd-4690-a612-f09e6b4367e4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "この瞬間を写真に撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "1d9e5204-1661-4bf0-a870-bbf4cfd2f23c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真お願いします",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "8aa31a91-4daf-4b94-bf43-319ae50549c1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "私の写真をとってください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "11804475-e2a9-48a8-9755-8b3fa93726d8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "カメラ撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "715839ef-790e-439e-8bf4-48a85850abe4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真を設定",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e56dfae9-8969-44f9-8a13-04644211dc62",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真を消して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b4e1becd-8d47-4cc8-82f5-cbec9e1d7591",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "カメラで写真を撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "9032e6c7-7a30-4cad-acc8-4f35b8cd643b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "一枚とって",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "464b1c8d-55ed-4d0e-87f3-909df1e7f8b5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ハイ、チーズ",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "ef1de3d6-71bb-437b-b813-c41cdcbe0d7f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "別の写真を撮ってください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "b70d4c85-7b74-4453-99f0-fb04f6cd394b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "はいチーズ",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "be1f4cde-0693-432d-af5e-4401a17ae5c3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真撮影して",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "c82ce079-fce7-4417-8840-8b73d4043860",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真を撮影",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4e5cb89a-ce0c-4eb4-b157-aa25c1c0dad1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "カメラ撮って下さい",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "9cdae58d-b9b0-4465-a77f-2c141a2fb0ca",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "これ、撮れる？",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "88ee8ff6-20db-4df1-8b42-e514f3fe9711",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真おねがいしまーす",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bccbe035-9b11-454d-af79-903d3f963427",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "いまを写真に撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "da192b26-cd3e-4dad-9ab4-ad105ac6f2ab",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真とろう",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "e7a109de-3b2c-410b-aa04-f056c920ac4d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "私の写真を写してください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "1a399cc8-99cb-4b98-ac6e-568819e98932",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "自撮りして",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "8f9492fa-bec0-4970-a47b-839267b128be",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "俺の写真を写してください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "f6cfdf6e-8af0-472f-88bc-b7a050faa199",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真、もう一枚お願いします",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "d66f9f4c-6eeb-4531-92ec-17d67bdba6ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真、もう一枚撮ってください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "51af7582-e35e-4bdc-8ce3-62bb7635afeb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真撮影",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "d3807452-eaeb-4d4d-ae30-77628d455348",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "別の写真をお願いします",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "169c965a-89bd-4c89-9caa-4473dc0974b4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真とって",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "07da9e52-7446-4aa6-8366-0ba64894e076",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "撮って、写真",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "51e14ba5-1a5b-49d7-b9b2-894728f25e34",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "写真とってください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "d081c336-fbd4-489a-89be-005b3b6af692",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "俺の写真をとってください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "29a6c757-c75c-4f4f-854c-c1411361b79e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

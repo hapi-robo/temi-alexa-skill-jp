@@ -1,0 +1,2348 @@
+{
+  "id": "810e343c-f488-484c-86d3-810089b5e13b",
+  "name": "locations:save-as",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "internal.savelocation.start",
+      "affectedContexts": [
+        {
+          "name": "locations",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "location",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "なんという名前で保存しますか"
+          ],
+          "value": "$location",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "場所 設定",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": null,
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "地点登録",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": null,
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "場所 登録",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": null,
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここが ",
+          "userDefined": false
+        },
+        {
+          "text": "第6 応接室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "だよ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "240f17f2-44a7-4207-806f-e479066f285e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここが",
+          "userDefined": false
+        },
+        {
+          "text": "第一 応接室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "だよ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d7383a30-37ad-4350-8aa3-2794ccc4cb1e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここが ",
+          "userDefined": false
+        },
+        {
+          "text": "第2 応接室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "だよ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9ed80e63-88d8-48a7-a69d-c56af4b740b4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここが ",
+          "userDefined": false
+        },
+        {
+          "text": "第3 応接室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "だよ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a6931b42-cd6b-483a-ace7-6d28ed3ee723",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここが ",
+          "userDefined": false
+        },
+        {
+          "text": "第5 応接室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "だよ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2228408d-a803-4004-a2d2-c1ecb02e2acb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここが ",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "だよ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7f5b593d-403a-45ca-a5d5-d4bd98076989",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "リビング",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "cb063ce3-48ba-482f-869a-15c35869a8e6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "この目的地を",
+          "userDefined": false
+        },
+        {
+          "text": "玄関",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "と保存して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cc838837-39e6-4b9d-bb1d-e6cdba74e52c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "この目的地を",
+          "userDefined": false
+        },
+        {
+          "text": "玄関",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "と保存",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5fa1866e-ff68-49a0-b2d1-48173c2ac066",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "この目的地を ",
+          "userDefined": false
+        },
+        {
+          "text": "エントランス",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "d38cf99d-dde0-4452-a40a-6ab30a610d2b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "この目的地を",
+          "userDefined": false
+        },
+        {
+          "text": "小瀧",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "と保存",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3fcb2533-5b6c-4960-a990-b7eaf0c89c98",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "この目的地を",
+          "userDefined": false
+        },
+        {
+          "text": "小瀧",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "と設定して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "73eeed6f-cbec-4740-8000-6306b6cb524b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "ソファー",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "と設定して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "09f2e0b3-25c0-47a9-b115-76259514c575",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "玄関",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "9c7e2145-e4fd-405a-b992-68378e4e8ee0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "キッチン",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0dfe25cf-7f91-417e-ab76-a321b46dd70c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "ダイニングテーブル",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3ea76693-6fb0-47bc-8d37-fd01326ac89c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "テレビ",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "fc55aa4f-0989-499d-9ef0-ffba27cb259e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "リビングルーム",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "31df6f57-b2d7-465e-8f3c-803ab4c0e383",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "寝室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "c6bdd5fd-07af-4f4a-a3b8-07526e4d99c9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "広間",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "4ba7114e-04cd-4ef2-a510-b0c6df361d2f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは ",
+          "userDefined": false
+        },
+        {
+          "text": "元気ランド",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "016dd781-0480-45b1-b545-6c64f6d4af36",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "テレビ",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "で",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6a9804b1-088d-4625-a0a9-1b15fcf59768",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここが ",
+          "userDefined": false
+        },
+        {
+          "text": "パソコン",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "だよ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f5aa82a6-7d8e-48af-afe9-6483fb25b3fc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "トイレ",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として覚えて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0e6b946f-9b68-4bfc-97e0-8e7778304539",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "トイレ",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として覚えて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cdfe3b39-64e0-4e57-844d-295bf624273e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "トイレ",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "としてセットして",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c6b96a46-8ca3-413c-9013-2e8ac0e718f0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは ",
+          "userDefined": false
+        },
+        {
+          "text": "キッチン",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4579b9e7-3023-4f8c-87c5-624bf60efaa9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "キッチン",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として保存して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6c75e6c5-0dd6-4d0c-be3a-872e5a1a133c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "テレビ",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として保存して",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "2d0e0a64-f636-46e5-a0c3-93c4e48781a2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "机",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として保存して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d63c9f6c-fc40-4723-bddc-73efabd3e789",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "机",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として設定して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f9fa49b1-1872-46ca-8580-8d0545f8bcfc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここ",
+          "userDefined": false
+        },
+        {
+          "text": "机",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として設定して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cbb3e06a-a230-4b95-9527-6eb8923e3834",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "玄関",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として設定して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d1097bc6-7e19-45d7-bf79-fb3b699b6e5d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "トイレ",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として設定して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1e638d80-b4ec-40ec-9499-5c8137f33c65",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "冷蔵庫",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として登録して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2f1231e0-03bf-43cb-a637-9b39937268a8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここ",
+          "userDefined": false
+        },
+        {
+          "text": "テレビ",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として設定して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "badd98a4-bca2-4a80-8897-c502ba22af71",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "キッチン",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として保存して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fed25818-003f-4016-9f51-ecb09abc0dc2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "大キッチン",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "で登録",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "294b8b2e-6b83-48ea-9acf-6c65eff8f555",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室 D",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": " で登録して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7242fcae-97ee-4ada-9b74-618defd44c14",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "で登録して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a47fb9e4-5af0-4b17-b9df-9b160a1ce593",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室 A",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": " と登録して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "55e847cf-1f97-48de-abd2-add50326cc58",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "テレビ",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として設定して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b8a8307f-f122-475b-95c8-987050100205",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "机",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として セーブしてください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "56292ba2-50a7-4769-9986-66420ebc1dcd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここ",
+          "userDefined": false
+        },
+        {
+          "text": "キッチン",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として登録して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5dbf2878-6623-496f-b581-48f4044009da",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "save this location as the ",
+          "userDefined": false
+        },
+        {
+          "text": "kitchen",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "223527b9-11d7-470e-ab29-46e71dd28ca0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここが",
+          "userDefined": false
+        },
+        {
+          "text": "社長の机の前",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "a0dc98f4-9506-40f5-bbd8-0869e1cd1297",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "台所",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": " と記憶して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "45201bdb-dadf-4bd5-843b-9cc22039e752",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここ お",
+          "userDefined": false
+        },
+        {
+          "text": "店 1",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として登録して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b98abd93-993c-4ced-9a0e-fadaf58ce35e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "寝室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として登録して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "84e2b93e-fa27-4924-b4da-e19f45ec6315",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ガラス工芸",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として登録",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "91826bdf-0fe1-4f39-a52c-838ec627e213",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室を ",
+          "userDefined": false
+        },
+        {
+          "text": "ニューヨーク",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として登録",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0a24799c-907a-4a48-b2b2-bfba3a8fa593",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "この場所を",
+          "userDefined": false
+        },
+        {
+          "text": "ニュートン",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として登録",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "279f8be6-e8ab-4103-bf27-0a8368c9d1aa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "介護 収入源",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として登録",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6efbc933-d08b-4520-99ca-b635bdb098dc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "入店",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0039b485-4d91-4281-afb3-d20942075ed1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "ニュートン",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a3f664f3-ee66-42ad-af36-5000c184bfd1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "パリ",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c9882cd5-9b70-46ab-b80e-a51dd3ededfd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "東京",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a998dbf1-d335-47f7-bec0-f1fd2d158ea8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 3,
+      "id": "0620cf18-d592-431b-8a6b-d535c0f799b1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここが ",
+          "userDefined": false
+        },
+        {
+          "text": "台所",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "b87d52ac-4d20-4fda-80ca-92c4db5784a0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここが",
+          "userDefined": false
+        },
+        {
+          "text": "ベランダ",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "425dbc9e-a323-4bb2-ac5e-5283c9ed84e5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここが",
+          "userDefined": false
+        },
+        {
+          "text": "入口",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "0fd847e7-261f-425b-a84c-2730963e93ef",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここが",
+          "userDefined": false
+        },
+        {
+          "text": "ウォーターサーバー",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "949a386a-fd73-43c2-bc3b-7d9f62a76cf7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "受付",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d219544c-59d8-43b8-a162-bb4d69a67deb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは ",
+          "userDefined": false
+        },
+        {
+          "text": "打ち合わせ室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "15ab1f74-eb9a-4898-b01c-7937d0ac068f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは ",
+          "userDefined": false
+        },
+        {
+          "text": "事務室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a73602f0-5f0d-4697-9da9-bd5b8d9b4510",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室ニュートン",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として保存",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "08b3272a-387d-4e9b-925c-eb076a4634af",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bdf00d46-ee03-4266-a199-0af780c2ad38",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "リビングルーム",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "と認識して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "193912d1-bce9-4531-a0e7-8e3aecee846b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "トイレ",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として保存",
+          "userDefined": false
+        }
+      ],
+      "count": 3,
+      "id": "807b3ebf-e71f-46a2-8274-bf6117c3d07b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "会議室7",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として保存",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "74f0347d-587f-41a9-8cf3-ac289048a3c4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "キッチン",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として保存",
+          "userDefined": false
+        }
+      ],
+      "count": 3,
+      "id": "4998bcc2-cee3-403f-8cfe-cef97e94a75c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "カカオ台所",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として保存",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "6507d99c-864e-42f6-880f-72d1ba4d5ca2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "台所",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として保存",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "a04c05f3-74a7-4ed7-88ed-34e530f5893f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "玄関",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として保存",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "a1c24249-9147-41ef-9197-3a4cf8334539",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室1",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として保存",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "f8d1a0d4-4847-4abe-8fac-8416cee6a6b3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "デカルトの会議室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として保存",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "8db0d127-20d0-4f82-bd27-8d132ea0ddec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "レイモンドの会議室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "と覚えます",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "b3b5f8ef-b7e8-4e40-85a7-f82c0e4035ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "レイモンドさんの会議室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として登録",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "0a726984-56b3-4d8c-b4dc-99091bc34c3c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "レイモンドさんの会議室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として登録",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "c60e9fe0-68b8-451c-a914-a71bc1f78dd1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "富田さんの部屋",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として登録",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "df578e31-9bc6-4e70-bcb4-5a32f04fefd7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "台所",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として保存",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8a97cc44-cd3e-40b2-8fe6-74a19621d7d2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "として覚えてください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5eb6781e-5a26-4664-a26e-091b0afe2f4c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "こちらが",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "になります",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f176516b-b1b4-4b3e-ab8d-4883196c511d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "廊下",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2c2b8e77-e41f-440a-b3d0-4faa963a2811",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "お手洗い",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "533a0abb-6b81-40ae-9c5a-0e184c474749",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "寝室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "とセットして",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "71aaf2aa-31e7-4dea-9b26-7e94d9d51488",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "覚えておいて、ここが",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "adc75e9c-9962-44ea-a743-80e9616daf54",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "にセット",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "43e34a96-a4ed-46e6-92dd-66d9dc3cee20",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここが",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "と覚えておくように",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d47dff95-8e93-4e4d-8029-6fbdf2645739",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "洗面所",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "e93a7175-ad34-4f3f-a132-6beb0629b31c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "台所",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "を覚えて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9d4b240c-fb31-4194-aefe-693905ae732e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここ、",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "ね",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dbcc32e2-77bf-4999-a9af-2b35a8e303e0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "これが",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "ということを覚えてください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1cd53fab-5187-47ff-8727-36a41f6035c4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "トイレ",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "819e8266-f651-48b9-a565-9befbdfef74b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お気に入りの場所",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "登録",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3b6f07af-8906-4f3e-9b8c-b50b0840808b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "オフィス",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9ead27ec-cc7f-47af-a698-f913f52f82f9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここは",
+          "userDefined": false
+        },
+        {
+          "text": "ダイニング",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "ea72064c-b8fe-4fd2-b187-a02fc54b75f5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここが",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "d29b81aa-2e7a-4eb3-8993-0638af940243",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "とセット",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "638414f0-162b-4f4e-ba2c-a5794193d2cf",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここが",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "だからね",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bfc7d01c-de47-470c-ba1f-cdba19007497",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここが",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です。",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7823b1af-5c64-4d89-944f-cc8b2f598140",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お気に入りの場所",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "セット",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2062a2f2-7924-4bb9-938d-9f03844464cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここが",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "と記憶",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7537465b-6ef1-4673-8367-fbf7325693a4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "お気に入りの場所",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "とします",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4d934e1b-6220-4cc9-bcf2-8f64b3033445",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "としよう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "601efd00-6354-457a-86ba-cd1a411bf224",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "今からここが",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "0ba355d5-1062-4719-bae3-a8997f8e5d7f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "登録",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fd3f57ec-646c-4c9e-be98-48884f33be5e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "だよ、覚えて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e10e22bf-d7c7-40c0-bb82-71f67481085c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ここを",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "と保存",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fd1cdd5d-8442-4f8d-9f54-c8c6874a8bbf",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

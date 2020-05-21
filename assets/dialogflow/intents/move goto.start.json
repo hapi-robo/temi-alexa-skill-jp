@@ -1,0 +1,2154 @@
+{
+  "id": "7af0063f-3622-4e23-b52b-8d4193b7b770",
+  "name": "move:goto.start",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "robot.move.gotolocation.start",
+      "affectedContexts": [
+        {
+          "name": "move",
+          "lifespan": 1
+        },
+        {
+          "name": "goto",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "location",
+          "dataType": "@sys.any",
+          "isList": false,
+          "required": true,
+          "prompts": [
+            "目的地を指定して下さい。",
+            "目的地はどこですか？",
+            "どちらに行きますか？"
+          ],
+          "value": "$location",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "玄関",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d6016f9a-4361-4128-ab45-d78a3e4e7577",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "玄関",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ入ってください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "49337ff3-94c3-441c-83a9-556397ec91b7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "16号室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に入って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "72700814-28ca-462c-b579-1c62f9abd5bb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "食堂",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に行って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "d0689da7-f2fb-44ed-961f-bc51e2059a3b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "向こう",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1f81dd2a-7493-4ebb-b41c-f0433d330ea1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "第6 応接室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで連れてって",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "50376804-f389-4881-ade4-7b85ae5e3758",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ダイニングテーブル",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ移動しなさい",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a05ddd97-7fab-4e42-ac88-7eb9762e31fb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ダイニングテーブル",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "を目的地にして",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8067aa3f-98fc-413b-add8-ad0ffa1c9993",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ダイニングテーブル",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ向かって",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "06ccc710-3147-4e72-a68c-bb2fbae414b0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ダイニングテーブル",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に来て",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "3a8cadf9-2fda-48c0-8ad8-6a6c194a376d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ダイニングテーブル",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで来て",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "31ce436e-e0fd-44d9-a71d-464c14861aa7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "耐火金庫",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に案内して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c97d1fdc-8193-448f-b1b9-7ad8d43c1aeb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "デンタルユニット",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に案内して",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "2a594900-4c8f-4d76-a322-375e73626a14",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "台所",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に行きなさい",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4c1779ec-7942-49e4-a956-224d2a37b801",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "玄関",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "入って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5c1bc383-d7e2-4f54-9d38-80e8c8c7ec65",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "こたつ",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで案内して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "819f6e8c-450b-4ccd-9ed3-fe8ae094d046",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "テレビ",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ行きたい",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5447ff2a-4004-45ad-a705-26ed2273f374",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "リビングルーム",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "76a06359-04f7-4ec8-8d13-fff55dd1d5f3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "寝室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "33db30d4-5eee-4a32-a88f-3a3963ea3fe1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "広間",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d3c3dc01-f1ef-4117-80f8-13bc19e2c65d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "目的地は",
+          "userDefined": false
+        },
+        {
+          "text": "玄関",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a96fe175-fbd8-4c3e-ad0f-8b6df5ff3fe4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "目的地は",
+          "userDefined": false
+        },
+        {
+          "text": "玄関",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "6ab1da02-1dcb-4a34-b302-b4ef80cf00b6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "目的地は",
+          "userDefined": false
+        },
+        {
+          "text": "キッチン",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 1,
+      "id": "f686b0a3-5255-4c23-a2f7-7c12ac9f2d09",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "目的地は",
+          "userDefined": false
+        },
+        {
+          "text": "ダイニングテーブル",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "fcbcbb0a-e351-46c4-a085-4e07d62d279a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "目的地は",
+          "userDefined": false
+        },
+        {
+          "text": "テレビスポット",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "a25142de-eb14-442f-a00e-1b9188f7f903",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "目的地は",
+          "userDefined": false
+        },
+        {
+          "text": "リビングルーム",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "です",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0fc4c202-e659-4558-a2dd-f9e186f2f2b9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "目的地は",
+          "userDefined": false
+        },
+        {
+          "text": "リビングルーム",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "a65d4e68-8cd6-4e81-b166-44ffdba1279c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "目的地は",
+          "userDefined": false
+        },
+        {
+          "text": "広間",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        }
+      ],
+      "count": 0,
+      "id": "624c7e6c-9f4c-4abb-9bf1-d8770ea28a11",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "玄関",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に入って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "d23b34fa-d36b-44bc-a612-a3978dbb58c5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "キッチン",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に入って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "83bba871-cc9b-4dc9-9e0e-5fc1c984b0c2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ダイニングテーブル",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に入って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "de17193b-b2ad-4935-8a19-cea3c21cddc0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "テレビスポット",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ入って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0e0dc6fa-af0b-4cb2-98c5-a7da45e69fc9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "リビングルーム",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ入って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0be6100a-d3a0-4402-9aad-4af346d4b10e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "リビングルーム",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に入って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6c155110-b359-4685-9b0b-31da86fa75e7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "テレビスポット",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に入って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "56552c06-c16c-4f79-ab8a-e3fced0491e9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "寝室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に入って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "f109b808-cd44-49f4-88e4-cbfb1f37cec0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "玄関",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に行こう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ed19b3fd-6d0e-49c5-a825-a19bb5028a1f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "寝室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に行こう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d4b135ee-48b4-4ff3-aa14-9a67baadac9c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "キッチン",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ行こう",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "660706ce-8d88-4924-88ab-782b7265ca6a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "玄関",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ行こう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5cc77194-d4f1-4ca6-8aec-9592d312ece3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "リビングルーム",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ連れてって",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "4cfdc57c-f4c0-4c6e-be38-cf938f49206e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "キッチン",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで連れてって",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "56ebb875-80f6-45d6-bfdb-353d6d8f3021",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "キッチン",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に連れてって",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3b134439-3036-478b-b414-b7602b745265",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "テレビスポット",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで連れてって",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "65383ab4-f0ff-4deb-bf9b-e0d8baa548e0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ダイニングテーブル",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで連れてって",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a080423a-ecac-43ab-8255-5793f24b2f08",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "キッチン",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に移動",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "081145e2-d39e-42c7-820c-cfc09402ea18",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "キッチン",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に向かって",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "acb8c857-397c-47ca-8348-04519406d6af",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "リビングルーム",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に向かって",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7454e74e-3956-41ef-b3fa-7c4d705dfd45",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "広間",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に入って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5ded1a35-1874-4442-a747-38b3b94413ce",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "広間",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ入って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9ce14413-185e-473f-94bb-d342e5f5056c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "寝室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ入って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "96d0f26e-dffe-451c-bd50-9a006fc25f2f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "キッチン",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ入って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a79bc314-cff4-4618-af9f-0cd3e6fa298f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "掃除機のところ",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "74575ef7-80e2-4131-a940-b94f42c47ae8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "キッチン",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に行って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "634832fd-f0b5-41f7-a970-49eec6c24015",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "リビング",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "bf0cfc5a-7649-42de-83af-1050666607cd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "リビング",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで連れてって",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ebf9d002-f4e7-44af-8215-116053021fc7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "キッチン",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8aae9b6f-ebe1-4feb-8256-07a4fe1ae546",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "テレビ",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "のところまで来て",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "996f62bf-e4ed-433c-a006-987a56c20293",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "テレビ",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "のところまで行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9d603cf4-2950-491a-8c18-7698a3410ee7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "テレビ",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "18defed9-5c9d-4a61-b698-505f0c4c61d2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで行って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "4cdea58c-0705-4847-a8d7-ea9ea01fddac",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "のところまで行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e5d63f11-9556-4978-82d7-2ff4e4fb4f73",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "747775f7-5d4d-4e13-90db-f664e2b4598f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "トイレ",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に行こう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "22f45e10-c305-4555-b13c-0f2cebd495aa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "トイレ",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2f06fc02-4016-4b4c-81ab-7ddb5c27cbb0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "キッチン",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで行ってください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f4430eaa-b784-494a-8bf9-3fa062a4ce98",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "机",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで行きましょう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "55afae36-de55-4041-b626-2f2d9b22634a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "机",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e03dc06f-61ca-46b9-969b-549da95630e5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "机",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に行こう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ef947053-6672-4336-9e8f-cc3a0f1d3f6b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "机",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "30930357-bf53-45a9-9bfb-807b702c1675",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "レイモンドさんの席",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで行ってください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "22e86e4f-9167-48ee-ae89-c8a9428c6f1f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "レイモンドさんの席",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0f1ad73c-7179-4451-91ad-95984d007a64",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "台所",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に入って",
+          "userDefined": false
+        }
+      ],
+      "count": 4,
+      "id": "806cd9f2-0f24-4ad1-b662-2a80c55e03e3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "冷蔵庫の前",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "40715aae-6584-4bf4-882b-475ad2e8591a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "寝室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に出発",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1192540f-351f-4613-90e1-0c344151d919",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "寝室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に出発進行",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4a8ea3d9-2783-41df-800d-735d0d5888c0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "冷蔵庫",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": " へレッツゴー",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8fe5b82b-0939-455f-bc8f-75a9090ee29f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ベッドルーム",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ出発",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f438819c-cbee-4707-8356-50e26f371de6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ GO",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ce590b38-7889-4e88-b7f6-4925f9e1aeb7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "目的地",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に行こう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3612edd3-5dfe-4cd1-8fbf-f590d124828f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "社長の机の前",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9ab231c3-fd59-42d2-83fe-677169208a88",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで動いて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "82daa007-4964-40f9-9651-141333b87b4d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで連れてって",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "a953096e-8a32-4c22-9957-7fb8ebb821a3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "冷蔵庫",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで連れてって",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e49bb59d-35d4-4f3a-beef-a6f46290899c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に移動",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f7f24000-f446-4b0c-b497-41e3210e84cb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "玄関",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に移動",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "08f62016-06b0-47d2-80a2-7bae9db2af74",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ベランダ",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に入って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ad64b424-1254-4bb7-8e31-60953480fa3d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室10",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4e93b49f-1520-4d22-a9d9-4f5004b692d6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に向かって",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6356eb0f-08ec-450b-9769-db82e1837177",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に行きなさい",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "df8c348e-a6de-4a93-ae66-660741094f89",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "キッチン",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に行きなさい",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dc83f550-f40b-448c-b239-039e8aa4bfcb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "キッチン",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に来てください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "321e99b6-8399-401d-8440-621facf03b80",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に来てください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "f8f06a86-e5d2-43b3-b131-08c30e89e7a3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "キッチン",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ向かってください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ceb344ee-835d-4e0b-a52f-1ce0b79c6286",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "キッチン",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に行きましょう",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "aad12ce2-c15d-46cc-a146-54ace047495c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "トイレ",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に連れて行って",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "8a152dc1-2adb-40c2-bcd0-6dd651600871",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "にいって",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "12b6ed81-5956-44a3-8500-8cb427edd410",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "台所",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "にいきなさい",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c0bccef3-666e-415a-81f3-12b93483fc7f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "に行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "afcb7992-6e10-4cb8-8fc0-149f54536756",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "で会えますか",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9c3d89e2-5725-4e9d-b18e-e201181c35a5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ移動してください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e14a18d7-ccc8-4ca1-a76b-d6ddf032963c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "では、",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ案内してください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "103aeaf9-fd38-4a4c-8a79-f0f5783906c5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ移動",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0fdc947f-a3cc-436c-95b1-1afedd21008d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで一緒にいきましょう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "fa686b7c-94e2-4a9f-8ffd-1d90b017db5c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで歩いていきましょう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ae0dacd4-d38c-4bdd-83c4-8ae307b89bdd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ案内してください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c9a4d072-ef36-453e-b90c-b7ce363d23df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "b42182fe-f5fd-4305-b565-8660a820e06f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで行ってください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3c65f0e8-d847-4ef7-b4b3-d4da4c419e8e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで行け",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9ebd383e-a0fb-478f-ba23-be56b28a8dfa",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "一緒に",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "までいきましょう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f1337198-81bd-4e76-aa92-a668584acf73",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "今すぐ、",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ来てください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6d05f9aa-0104-45a9-9fbc-b47c18cdd2a1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "では、",
+          "userDefined": false
+        },
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ行ってください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "833b6a8d-d210-48a5-a788-af2812a6755f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで来てください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0b715b23-fe76-4ed7-b2a6-e4f917084d7e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "へ移動して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a37f9992-e12e-4884-aa8f-a30495d3bcc0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "会議室",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@sys.any"
+        },
+        {
+          "text": "まで競争しましょう",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "917825dc-54df-4771-8ea0-aa305e5c5cfe",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

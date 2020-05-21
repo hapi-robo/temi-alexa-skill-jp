@@ -1,0 +1,25 @@
+{
+  "isRegexp": false,
+  "isEnum": false,
+  "allowFuzzyExtraction": true,
+  "name": "home-base",
+  "automatedExpansion": true,
+  "entries": [
+    {
+      "value": "ホームベース",
+      "synonyms": [
+        "お家",
+        "ステーション",
+        "チャージステーション",
+        "ドッキングステーション",
+        "ホーム",
+        "ホームベース",
+        "充電ステーション",
+        "家",
+        "自分の場所"
+      ]
+    }
+  ],
+  "id": "474832d5-53d7-4289-8218-ae533d7244e6",
+  "isOverridable": false
+}

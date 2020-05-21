@@ -1,0 +1,664 @@
+{
+  "id": "6a6160b3-6144-4cf0-ae20-7e6698a3f108",
+  "name": "camera:video.start",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "camera.take.video",
+      "affectedContexts": [
+        {
+          "name": "camera",
+          "lifespan": 1
+        },
+        {
+          "name": "camera-video",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [],
+      "defaultResponsePlatforms": {},
+      "messages": [],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオ 始めて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d511499d-954f-4e3b-9fc8-7173691789b4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオ スタートして",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "83892838-2a88-437f-83cb-dcabe242e3ef",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオを撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "e6f92b5e-df3e-491d-8ef0-ff3f7d448a4e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "動画を撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "16b95d22-78b8-4a69-b0d4-e414186f1bbb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "撮影開始して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e4356e5d-749f-405b-8751-23a1cdf8e0c1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "録画して",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "7a2dcb71-e0be-441b-afbd-4c4537068240",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "収録して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5ed697de-92fd-4910-833e-f8463c7fa75e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオ",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "1f7161c9-549d-4837-9026-11da4bea2a4b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "収録してください",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "79f91134-3907-4322-923b-88fbf94357ec",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオを開始して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "54563d9f-3933-4794-8d7a-e8c67705110b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "撮影を開始して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "76173cab-9a63-408f-95b5-e17986e7e029",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオを撮る",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "09bdf3ef-df3c-48bf-868a-2e2c78cb7f93",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ムービーを撮る",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "01887034-e129-4bb5-bdfe-64f5fb098a8a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオに切り替えて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "1b20fbb6-fa2c-412c-9008-a4ff22c5430a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオを映して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "37a74ca7-7006-4260-aa0c-b90bacb3cea6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオを開始",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "da01cc52-a089-4d05-a87a-ce759aba8639",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "録画を開始",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "817e1c40-7a05-4c71-b0ad-22d860c92493",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "録画スタート",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "29eba700-1e16-4c83-977f-0f74edb74fa9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "録画をお願い",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6bec3601-b657-4f9b-ab43-cb9190d37392",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "録画開始",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "09b1f261-edf0-48dc-9f70-3126984a6a63",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "録画始めて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "54ce40c2-4d24-4067-a31f-d3814e5823b6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオでとって",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "c5b126db-7ff6-4aa4-ab72-7afd2a75a7bb",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "この",
+          "userDefined": false
+        },
+        {
+          "text": "ビデオ",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "撮ってください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8e71138e-87e6-4147-a9d8-6090fa0df32b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "そのビデオ撮ってください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "89d97f71-2b2f-46d2-adeb-71dec2839bb9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオ撮れ",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "352fa15f-fc10-4b42-ab8e-a00d8179f0c8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "このビデオ撮ってください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "e3e20a4f-9454-4023-b168-f7c31403c9bd",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "録画を始めて",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "197546c0-e336-489c-8cc8-021313256e0d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "動画",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        }
+      ],
+      "count": 0,
+      "id": "35c59680-e748-45f4-b8cb-a6048c600a5f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオ撮影して",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "84b6265f-9dfd-4b7d-a7f9-16c5d60f0e0c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "その",
+          "userDefined": false
+        },
+        {
+          "text": "ビデオ",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "撮ってください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4e12769b-fd53-4a00-b9a5-755445dd80b9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ムービー",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "を録画して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6bfa3794-ce7c-4f46-bdbe-f3bc53819e51",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "動画",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "で撮って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "83721d76-b7c3-482d-a6a4-0b3ac0206557",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオ撮影してください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "a16a9441-5227-4df7-a361-e6d9d65b6dc0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオ回してください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "800e3f55-caef-4ada-9ecf-65747118ccb2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "動画",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "撮影してください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "d3efbef2-5037-4544-abc2-3cdf8a884d4e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオ",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "撮って下さい",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4e20d761-68a1-40f7-9ed9-b4c45115dd1e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオ",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "回してください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c76dc3db-b830-4f51-a8c2-04527e4d0614",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "動画",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "で撮って下さい",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "f0425c9a-58a4-4699-bbd5-676459fe1de2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "動画",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "撮影",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "79703063-9f72-465c-b3a7-77cca82f68a8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "動画",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "でとれ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0df54165-e95f-413b-ad65-5ac4a8d2da66",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "動画",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "撮影して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "69948ee2-bebe-4d5f-bd08-669db2864fb4",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオ収録して",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "fcd3ed36-3358-49f4-896d-ba1e5235b46d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオ",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "撮れ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5db260ab-68e3-4cc1-ba6a-e5b9f4718f7b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ビデオ",
+          "userDefined": true,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "撮影してください",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "23bc1087-b5b1-4117-80fb-8ebc3a4a809e",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}

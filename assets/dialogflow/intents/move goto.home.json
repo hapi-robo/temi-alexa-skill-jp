@@ -1,0 +1,1042 @@
+{
+  "id": "0a4320be-0021-4f92-b47c-cc9ed367cd90",
+  "name": "move:goto.home",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "robot.move.gotolocation.start",
+      "affectedContexts": [
+        {
+          "name": "move",
+          "lifespan": 1
+        },
+        {
+          "name": "goto",
+          "lifespan": 1
+        }
+      ],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "home base",
+          "name": "location",
+          "dataType": "@home-base",
+          "isList": false,
+          "required": false,
+          "prompts": [
+            "目的地を指定して下さい。",
+            "目的地はどこですか？",
+            "どちらに行きますか？"
+          ],
+          "value": "$location",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホームベース",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": " 帰ります",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8fb04188-b88c-4ea9-ace7-146252f6d5df",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "自分の居場所",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に戻って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "6cc82855-209e-40aa-bacd-b09277b9d1ce",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホームベース",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "へ行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "65227ab8-06fd-4b20-a052-e11580410f2b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホームベース",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "へ戻って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "394fd91b-7688-4ebe-98f3-ff9e3c45875c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "家",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に戻って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "0269ae30-e89c-4b43-8344-3d1b6ee76ef3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "帰れ",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "92a013b9-70f2-42d5-b185-a49f743c660c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "おうちへ帰って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "01205896-8d00-4138-8123-744f25db5d64",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お家",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に帰って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "789a04b9-a6cf-4fcf-9406-fa29ffbb9950",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホーム",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "へ戻って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "3ac2d424-6898-4316-8e5b-d0ac4e769ff3",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "帰って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9cd30a7f-e0df-4508-a519-ac88f9099741",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お家",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "来て",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "55b0c4af-301e-4967-b250-e312876423a8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホームベース",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": " 戻って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "a9a07985-1056-4518-b733-aa9aef32ad63",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "家",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "帰って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "735f1fe6-55f6-4537-a493-84ee8e99466c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "家",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に戻して",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "4886d7bc-6989-4476-bb02-7c546421704b",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お家",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "へ帰って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7979964c-868b-46f0-b07f-f4c7329fc361",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お家",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に戻って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "811203de-41c9-4483-8582-56a3a7a6aba7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お家",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "へ帰りなさい",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "dc71e975-e28e-477b-87fb-55cedaff97e1",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "充電ステーション",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に戻る",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c9771409-7c23-4775-a7d0-4a14b3fb5b45",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "お家",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に戻りなさい",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "d7619948-b5b5-4acb-bd78-b86f4f897eb6",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "家",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に戻りなさい",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "ca3b8535-9297-4ed2-bf80-f1fd64803212",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "自分の",
+          "userDefined": false
+        },
+        {
+          "text": "家",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に戻りなさい",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c385321f-f224-47b2-957d-e594603e380d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホームベース",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に戻って",
+          "userDefined": false
+        }
+      ],
+      "count": 3,
+      "id": "f9552dd1-9daf-45e6-9f84-0a5a6bc99650",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "go ",
+          "userDefined": false
+        },
+        {
+          "text": "home",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@home-base"
+        }
+      ],
+      "count": 0,
+      "id": "38898c88-8afb-4525-bc76-3987e9c0e010",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホーム",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に戻って",
+          "userDefined": false
+        }
+      ],
+      "count": 3,
+      "id": "2333bf06-a20d-4ed2-a761-f348e3c20d4a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "自分の場所",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に戻って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "27759f58-bd3a-4160-8a47-f6a433457748",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "充電しに戻って",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "dca82ca2-a2b5-4096-934f-4e23a6f83856",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホーム",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に移動",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "67ad615d-5844-49f4-a2bf-e70d6ed6b83c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホームベース",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に戻りなさい",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "944931fe-19e8-4262-ab42-d942a4e0193c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホームベース",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に行って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "c83e2f31-d29b-4f00-a982-449740e0b139",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホームベース",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に入って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "8e8fdc82-8650-4651-8b36-0ce8b2fdb05e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホームベース",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "まで戻って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "40643f97-de3f-4996-82c9-8612e927b555",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホームベース",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に帰って",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "803c0025-3a45-4852-a3d4-5fc6e49a17ee",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "充電しておいで",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "73609598-f78d-44dc-8334-dc321e539687",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "自分の場所",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に戻ってください",
+          "userDefined": false
+        }
+      ],
+      "count": 2,
+      "id": "9d64b0ca-61e9-42c1-9cc1-8c674602a65c",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "自分の場所",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "へ戻りなさい",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "3cf3895f-5923-4e15-af01-465c65a0e3f9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホームベース",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に帰ってください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "d2aa1986-0138-4cdf-8759-1c3dd5cd9258",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "チャージしに戻って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "3d2dc812-2a77-481f-8154-bb06cca3dc14",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "チャージしに帰って",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e7c69c8b-25c4-4a65-95c3-5d6296876c26",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "自分の場所",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に帰って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "1b90269d-6ccf-41d9-a2ce-1c608442c98a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "充電してきて",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "2b6a3fe6-8b33-48d9-86b1-84fe861e99af",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "充電しにいってこい",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "9302e439-db8e-41e7-8f3d-fa92563caed0",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "電池ないよ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "7e1264cf-12f3-4a9a-8b7d-784f3c139167",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "チャージしに戻れ",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "b359f868-259e-4149-b23c-7d4ab441ac29",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホームベース",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に戻れ",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "844a7910-4294-49ed-bb26-5b9c0856b163",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "自分の場所",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に戻れ",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "ac21bb44-4bba-42a4-bf29-1bb06379fdd8",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "充電してこい",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "cc493784-4015-4af8-84f9-7cf5b7950f1f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "自分の場所",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に帰りなさい",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "46e8acd4-443b-4655-b19b-382ddd138f0e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "自分の場所",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に帰ってください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "ddf9e0b1-2433-4722-85c6-7bfa35646442",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "充電しに戻れ",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "6acdb098-bcec-4041-81e3-14edc45d08cc",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "充電",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "cadfeeb0-1b51-4c8f-bc3a-6a4b7f4885a9",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホームベース",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に帰りなさい",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "6a585fce-442a-4f1a-b3eb-df4eebf48f60",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "充電してきてください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "7a7b7202-af57-4d48-bc7b-57629c8911d7",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "チャージしてください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "b1b6f186-0521-4006-9c9b-beb1ae8c616f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "充電しにいってください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "3ffc8645-8c5c-4cfa-ac3e-8e04cc1daf69",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホームベース",
+          "userDefined": true,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に帰れ",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "9c816d96-f6cd-4b46-a395-cdd82ae25047",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "チャージャーに行って",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "147aadf1-8b1f-4ac7-8527-0db66199e3c5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "チャージしろ",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "56028ff4-e91f-4d35-b4ab-cf39a434cb4e",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "チャージ",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "2821d898-ae15-4e4a-87fb-937beb878307",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "ホーム",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@home-base"
+        },
+        {
+          "text": "に戻る",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "c16ad6fe-1896-441f-98aa-d758a41f0d0f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "充電しにいって",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "5eeff2fb-0d40-48c3-9721-e084c335a91f",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "充電して",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "9fdac5d6-ba52-4d4d-8102-05a1bd7ff413",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "充電しに戻ってください",
+          "userDefined": false
+        }
+      ],
+      "count": 1,
+      "id": "ded7b524-2bd2-4e6e-be96-a82e3331f869",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
