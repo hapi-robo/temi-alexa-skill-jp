@@ -4,7 +4,7 @@
             "invocationName": "マイテミ",
             "intents": [
                 {
-                    "name": "camera_picture",
+                    "name": "TakePhoto",
                     "slots": [],
                     "samples": [
                         "one枚撮って",
@@ -69,7 +69,7 @@
                     ]
                 },
                 {
-                    "name": "camera_sequence",
+                    "name": "TakeSequence",
                     "slots": [],
                     "samples": [
                         "シークエンスでとって",
@@ -102,7 +102,7 @@
                     ]
                 },
                 {
-                    "name": "camera_video",
+                    "name": "TakeVideo",
                     "slots": [],
                     "samples": [
                         "このビデオ撮ってください",
@@ -147,7 +147,7 @@
                     ]
                 },
                 {
-                    "name": "locations_save_as",
+                    "name": "SaveLocation",
                     "slots": [
                         {
                             "name": "location",
@@ -216,7 +216,7 @@
                     ]
                 },
                 {
-                    "name": "move_follow_me",
+                    "name": "FollowMe",
                     "slots": [],
                     "samples": [
                         "follow me",
@@ -313,7 +313,7 @@
                     ]
                 },
                 {
-                    "name": "move_goto_location",
+                    "name": "GoTo",
                     "slots": [
                         {
                             "name": "location",
@@ -379,7 +379,7 @@
                     ]
                 },
                 {
-                    "name": "move_goto_homebase",
+                    "name": "GoToHomebase",
                     "slots": [],
                     "samples": [
                         "ホームベースへ戻って",
@@ -447,7 +447,7 @@
                     ]
                 },
                 {
-                    "name": "youtube",
+                    "name": "Play",
                     "slots": [
                         {
                             "name": "noun",
@@ -681,7 +681,7 @@
         "dialog": {
             "intents": [
                 {
-                    "name": "locations_save_as",
+                    "name": "SaveLocation",
                     "confirmationRequired": false,
                     "prompts": {},
                     "slots": [
@@ -697,7 +697,7 @@
                     ]
                 },
                 {
-                    "name": "move_goto_location",
+                    "name": "GoTo",
                     "confirmationRequired": false,
                     "prompts": {},
                     "slots": [
